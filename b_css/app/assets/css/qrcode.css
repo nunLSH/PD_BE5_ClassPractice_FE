@@ -68,7 +68,7 @@ body{
   }
 
   body{
-    background-image: url("/b_css/assets/img/bg_night.jpg");
+    background-image: url("../img/bg_night.jpg");
   }
 
   .content{
