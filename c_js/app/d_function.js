@@ -30,7 +30,7 @@ const returnFnc = function(){
   let counter = 0;
 
   // 자바스크립트에서 함수는 함수객체가 생성되는 시점에
-  // 함수가 실행되기 위한 환경을 메모리에 저장 (따라서 name, counter이 메모리에서 내려오지 않음)
+  // 함수가 실행되기 위한 환경을 메모리에 저장 (따라서 name, counter(변수들)이 메모리에서 내려오지 않음 >> 마치 캡슐화처럼 사용 가능)
   // 반환되는 함수 : Closure
   return function (){
     counter++;
